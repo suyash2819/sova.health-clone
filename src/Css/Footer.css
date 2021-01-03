@@ -1,0 +1,61 @@
+.underlining {
+  height: 5px;
+  background-color: #00000014;
+  width: 980px;
+}
+@media only screen and (max-width: 800px) {
+  .underlining {
+    width: 100%;
+  }
+}
+
+.form-control {
+  width: 50% !important;
+}
+button {
+  border: none;
+  color: white;
+  background-color: #29385c;
+  padding: 0 20px 0 20px;
+  border-radius: 20px !important;
+}
+.footerRow {
+  margin: 0 0 0 13% !important;
+}
+
+.phonenumber {
+  margin-left: 35%;
+}
+.email {
+  margin-left: 35%;
+}
+.para {
+  width: 40%;
+}
+@media only screen and (max-width: 800px) {
+  .footerRow {
+    margin: 0 0 0 0px !important;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  .emailform {
+    margin: 0 0 0 0px !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .phonenumber {
+    margin-left: 0px;
+  }
+  .email {
+    margin-left: 0px;
+  }
+  input {
+    width: 100% !important;
+  }
+  .para {
+    width: 100%;
+  }
+  .form-control {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,127 @@
+.howitworksfirstquote {
+  margin-top: 70px;
+  color: black;
+}
+
+.react-multi-carousel-list {
+  width: 70% !important;
+}
+.react-multi-carousel-track > li {
+  width: 329px !important;
+}
+.services {
+  background-color: #f5f4f4;
+}
+.howitworkssubheading {
+  color: #1e2c4c;
+  font-family: "Roboto", sans-serif;
+}
+#howitworksfrontquote1 {
+  margin-top: 50px;
+}
+.howitworksfronttext {
+  color: #1e2c4c;
+  font-family: "Roboto", sans-serif;
+}
+#howitworksunderlining {
+  height: 2.5px;
+  width: 55%;
+  background-color: #1e2c4c;
+}
+.viewourplans {
+  padding-left: 30px !important;
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
+  padding-right: 30px !important;
+  text-align: center;
+  border-radius: 10px;
+  width: 10vw;
+  background-color: #1e2c4c;
+  display: initial !important;
+  color: white !important;
+}
+.howitworksfronttext {
+  margin-left: 35%;
+}
+.headimg {
+  width: 70%;
+  height: 423px;
+  object-fit: cover;
+}
+.howitworksunderlining2 {
+  height: 2.5px;
+  width: 20%;
+  background-color: #1e2c4c;
+}
+.howdoesitworkimg {
+  width: 70%;
+  object-fit: "fill";
+}
+
+.howitworksunderlining3 {
+  width: 7%;
+  background-color: #1e2c4c;
+  height: 2.5px;
+}
+.healthpromiserow {
+  justify-content: center;
+  margin: 0px !important;
+}
+
+.howitworksunderlining4 {
+  height: 2.5px;
+  width: 29%;
+  background-color: #1e2c4c;
+}
+
+.howitworksunderlining5 {
+  height: 2.5px;
+  width: 50%;
+  background-color: white;
+}
+.pastusers {
+  color: white;
+  background-color: #1e2c4c;
+}
+
+.carousel-caption {
+  position: initial !important;
+  margin: 50px;
+}
+.carousel-caption > p {
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .howdoesitworkimg {
+    width: 100% !important;
+  }
+  .headimg {
+    width: 100% !important;
+    height: initial;
+  }
+  .howitworksfronttext {
+    margin: 5px;
+    text-align: center;
+  }
+  #howitworksunderlining {
+    width: 45%;
+    margin-left: 28%;
+    text-align: center;
+  }
+  .howitworkssubheading {
+    font-size: 20px !important;
+  }
+  .headingpastusers {
+    font-size: 20px !important;
+  }
+  .howitworksunderlining2 {
+    width: 25%;
+  }
+  .react-multi-carousel-list {
+    width: 100% !important;
+  }
+  .react-multi-carousel-track > li {
+    width: 360px !important;
+  }
+}

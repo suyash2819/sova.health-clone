@@ -1,0 +1,19 @@
+.chatbox {
+  position: fixed;
+  left: 93%;
+  top: 76%;
+}
+.chatbutton {
+  border: 1px solid;
+  border-color: #1e2c4c;
+  border-radius: 50% !important;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .chatbox {
+    position: fixed;
+    left: 80%;
+    top: 90%;
+  }
+}

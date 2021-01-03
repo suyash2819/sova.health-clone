@@ -1,0 +1,160 @@
+#frontquote1 {
+  margin-top: 50px;
+}
+#underlining {
+  height: 2.5px;
+  width: 55%;
+  background-color: white;
+}
+#frontimage {
+  margin-right: 150px;
+  font-family: "Roboto", sans-serif;
+}
+.learnmore {
+  padding-left: 30px !important;
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
+  padding-right: 30px !important;
+  text-align: center;
+  border-radius: 10px;
+  width: 10vw;
+  background-color: white;
+  display: initial !important;
+  color: #29385c !important;
+}
+.fronttext {
+  margin-left: 35%;
+}
+
+@media only screen and (max-width: 900px) {
+  #frontimage {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .norestrictions {
+    position: relative;
+    top: 0px;
+    transform: translate(-50%, -50%);
+  }
+}
+.division2 {
+  background-color: #e3e3e3;
+}
+.underlining2 {
+  height: 2.5px;
+  width: 45%;
+  background-color: #1e2c4c;
+  margin-left: 27%;
+}
+
+.norestrictrow {
+  width: 65vw;
+}
+.norestrictrow > div {
+  margin-top: 7%;
+  padding: 0px !important;
+  border: 1px solid #e3e3e3;
+  background-color: white;
+  border-radius: 10px;
+  color: #29385c;
+}
+.norestrictions {
+  position: relative;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+.healthGoalsRow > div {
+  border: none;
+}
+.healthGoalsRow {
+  justify-content: center;
+  margin: 0px !important;
+}
+.underlining3 {
+  height: 2.5px;
+  width: 17%;
+  background-color: #1e2c4c;
+  margin-left: 42%;
+}
+.subheading {
+  color: #1e2c4c;
+  font-family: "Roboto", sans-serif;
+}
+.howitworksimg {
+  width: 50%;
+}
+.completeprocess {
+  color: #1e2c4c !important;
+}
+.completeprocess:hover {
+  text-decoration: none;
+}
+.underlining4 {
+  height: 2.5px;
+  background-color: #1e2c4c;
+  width: 30%;
+}
+.underlining5 {
+  height: 2.5px;
+  background-color: #1e2c4c;
+  width: 25%;
+}
+.underlining6 {
+  height: 2.5px;
+  background-color: #1e2c4c;
+  width: 15%;
+}
+.underlining7 {
+  height: 2.5px;
+  background-color: #1e2c4c;
+  width: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .howitworksimg {
+    width: 100%;
+  }
+  .partnerimage {
+    width: 100% !important;
+    height: initial !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #frontimage {
+    margin: 0px;
+  }
+  .subheading {
+    font-size: 20px !important;
+  }
+  .completeprocess {
+    font-size: 12px;
+  }
+  #frontquote1 {
+    font-size: 25px !important;
+  }
+  .fronttext {
+    margin: 5px;
+    text-align: center;
+  }
+  #underlining {
+    width: 45%;
+    margin-left: 28%;
+    text-align: center;
+  }
+  .partnerimage {
+    width: 100% !important;
+  }
+}
+.carousel-caption {
+  position: initial !important;
+  margin: 50px;
+}
+.carousel-caption > p {
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .userImage {
+    margin: 50px 0px 0px 0px !important;
+  }
+}
