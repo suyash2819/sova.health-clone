@@ -1,6 +1,6 @@
 import { Switch, Route } from "react-router-dom";
-import Home from "./Home";
-import HowItWorks from "./HowItWorks";
+import Home from "../Pages/Home";
+import HowItWorks from "../Pages/HowItWorks";
 
 const Navigation = () => {
   return (

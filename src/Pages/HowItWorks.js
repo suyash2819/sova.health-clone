@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import { connect } from "react-redux";
-import { fetchServicesData } from "./FetchData";
+import { fetchServicesData } from "../Services/FetchData";
 import "../Css/Home.css";
-import Header from "./Header";
-import DisplayCarousel from "./Carousel";
-import Loader from "./Loader";
-import Footer from "./Footer";
-import MultiCarousel from "./MultiCarousel";
+import Header from "../Components/Header";
+import DisplayCarousel from "../Components/Carousel";
+import Loader from "../Components/Loader";
+import Footer from "../Components/Footer";
+import MultiCarousel from "../Components/MultiCarousel";
 import "../Css/HowItWorks.css";
-import ChatBox from "./ChatBox";
+import ChatBox from "../Components/ChatBox";
 
 const HealthPromise = () => {
   const healthPromiseImages = [

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import { connect } from "react-redux";
 import "../Css/Home.css";
-import Header from "./Header";
-import DisplayCarousel from "./Carousel";
-import Footer from "./Footer";
-import ChatBox from "./ChatBox";
+import Header from "../Components/Header";
+import DisplayCarousel from "../Components/Carousel";
+import Footer from "../Components/Footer";
+import ChatBox from "../Components/ChatBox";
 
 const OurPartners = () => {
   return (

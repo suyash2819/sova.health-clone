@@ -5,7 +5,7 @@ import { bindActionCreators } from "redux";
 import Loader from "./Components/Loader";
 import store from "./Store";
 import { fetchData } from "./Components/Reducer";
-import { fetchFeedbackData } from "./Components/FetchData";
+import { fetchFeedbackData } from "./Services/FetchData";
 
 function AppComponent(props) {
   let [loader, setLoader] = useState(true);
