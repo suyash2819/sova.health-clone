@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 import { Row, Col, Form } from "react-bootstrap";
 
 const Footer = () => {
+  const socialmediaimages = [
+    "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp",
+    "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp",
+    "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/c7d035ba85f6486680c2facedecdcf4d.webp",
+    "https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/78aa2057f0cb42fbbaffcbc36280a64a.webp",
+  ];
+
   return (
     <div className="footer">
       <center>
@@ -47,39 +54,20 @@ const Footer = () => {
           </div>
         </Col>
       </Row>
+
       <center>
-        <Link to="#" className="">
-          <img
-            alt="facebook"
-            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp"
-            style={{ width: "42px", height: "42px", objectFit: "cover" }}
-            className="socialmedia"
-          />
-        </Link>
-        <Link to="#" className="">
-          <img
-            alt="instagram"
-            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
-            style={{ width: "42px", height: "42px", objectFit: "cover" }}
-            className="socialmedia"
-          />
-        </Link>
-        <Link to="#" className="">
-          <img
-            alt="twitter"
-            src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/c7d035ba85f6486680c2facedecdcf4d.webp"
-            style={{ width: "42px", height: "42px", objectFit: "cover" }}
-            className="socialmedia"
-          />
-        </Link>
-        <Link to="#" className="">
-          <img
-            alt="youtube"
-            src="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_42,h_42,al_c,q_85,usm_0.66_1.00_0.01/78aa2057f0cb42fbbaffcbc36280a64a.webp"
-            style={{ width: "42px", height: "42px", objectFit: "cover" }}
-            className="socialmedia"
-          />
-        </Link>
+        {socialmediaimages.map((image) => {
+          return (
+            <Link to="#" className="" key={image}>
+              <img
+                alt="social media links"
+                src={image}
+                style={{ width: "42px", height: "42px", objectFit: "cover" }}
+                className="socialmedia"
+              />
+            </Link>
+          );
+        })}
         <br />
         <br />
         <p>WEDNESDAY HEALTH INDIA PVT. LTD. 2020. ALL RIGHTS RESERVED</p>

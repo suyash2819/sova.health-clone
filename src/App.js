@@ -16,7 +16,7 @@ function AppComponent(props) {
         props.fetchData(data.data);
         setLoader(false);
       },
-      [props.feedbackData]
+      []
     );
   });
 
